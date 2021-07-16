@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Nanum+Gothic&family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 26px;
+  background: #faf7eb;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  margin: 8px;
+}
+
+.app-interface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 800px;
+  height: 700px;
+  margin: 150px 0px;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: whitesmoke;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.72);
+}
+
+.add-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.add-info div {
+  margin: 0px 10px;
+  flex: 1;
+}
+
+#location {
+  font-size: 35px;
+}
+
+#temp {
+  font-size: 45px;
+}
+
+input {
+  margin: 18px 0px 13px 0px;
+  width: 60%;
+  height: 30px;
+  padding-left: 3px;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgb(44, 42, 42);
+}
+
+.pac-item {
+  padding: 0px 10px;
+}
+
+.pac-icon {
+  display: none;
+}

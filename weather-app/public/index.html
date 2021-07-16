@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="app-interface">
+      <p id="location">Location</p>
+      <p id="temp">0</p>
+      <p id="main-condition">Sunny</p>
+      <p id="temp-min-max">0/0</p>
+      <div class="add-info">
+        <div>
+          <p>Wind</p>
+          <p id="wind">0.0</p>
+        </div>
+        <div>
+          <p>Pressure</p>
+          <p id="pressure">0000</p>
+        </div>
+        <div>
+          <p>Humidity</p>
+          <p id="humidity">0%</p>
+        </div>
+      </div>
+      <input id="search-location" type="text" placeholder="Enter Location" />
+    </div>
+    <a href="">Powered By OpenWeather</a>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyCOh0uidziUEwSOBIaPanFHOmJIx9rQPaQ&libraries=places"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
